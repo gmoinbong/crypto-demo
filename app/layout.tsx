@@ -8,7 +8,9 @@ export const metadata: Metadata = {
   title: 'Crypto Exchange',
   description: 'Crypto trading platform',
   icons: {
-    icon: '/icon.svg',
+    icon: [
+      { url: '/icon.svg', type: 'image/svg+xml' },
+    ],
   },
 }
 
